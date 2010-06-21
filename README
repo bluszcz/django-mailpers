@@ -12,7 +12,15 @@ Simplified BSD License
 Instalation of the django-mailpers
 ==================================
 
-Download sources using github and run:
+simply type:
+
+pip install django-mailpers
+
+or
+
+easy_install django-mailpers
+
+or download sources using github and run:
 python setup.py install
 
 Integrating with your Django project
