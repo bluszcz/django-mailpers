@@ -7,6 +7,7 @@ setup(
     license = 'Simplified BSD License',
     description = "SMTP / Email helpers for Django apps.",
     author = 'Rafal bluszcz Zawadzki',
+    author_email = 'bluszcz@bluszcz.net',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
     install_requires = ['setuptools'],
