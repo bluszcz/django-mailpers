@@ -1,0 +1,33 @@
+Introduction
+============
+
+django-mailpers is a set of smtp/email helpers for Django apps. For example
+first helper allows to run easily SMTP development server for your project.
+
+Licence
+=======
+
+Simplified BSD License
+
+Instalation of the django-mailpers
+==================================
+
+Download sources using github and run:
+python setup.py install
+
+Integrating with your Django project
+====================================
+
+Add following to your INSTALLED_APPS variable:
+  'mailpers',
+
+Usage
+=====
+
+For now there is only one command implemented - SMTP server.
+
+After the installation manage.py help will show you new command, runsmtpserver.
+
+This command runs development SMTP server (which acts as a real one, but not
+sends emails) using your EMAIL_HOST and EMAIL_PORT variables - so they should
+be set for localhost or any bindable ip/port on your machine.
